@@ -1,3 +1,8 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .navbar {
     background-color: #000b82;
     overflow: hidden;
@@ -73,8 +78,8 @@ ul {
 p {
     margin-left: 10px;
     margin-right: 10px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -99,6 +104,7 @@ p {
 }
 
 .socials {
+    /* columns: 2; */
     text-align: center;
     font-size: 15pt;
     font-family: 'Roboto Condensed', sans-serif;
