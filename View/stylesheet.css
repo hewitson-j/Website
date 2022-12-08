@@ -238,3 +238,8 @@ p {
     padding: 15px;
     height: auto;
   }
+
+  ::selection {
+    color: white;
+    background-color:brown;
+  }
