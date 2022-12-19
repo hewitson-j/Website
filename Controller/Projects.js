@@ -17,6 +17,20 @@
 //     this.classList.toggle("active");
 //   });
 // }
+// const head = document.getElementsByClassName("accordion-header");
+// const body = document.getElementsByClassName("accordion-body");
 
-const body = document.body;
-body.append("Bonjour stupid.");
+const accordion = document.getElementsByClassName("label");
+
+for (i = 0; i < accordion.length; i++) {
+  accordion[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}

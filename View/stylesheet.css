@@ -1,7 +1,19 @@
 body {
     margin-left: 0;
     margin-right: 0;
+    /* animation: fadeInAnimation ease 2sec;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
 }
+
+/* @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} */
 
 .navbar {
     background-color: #000b82;
@@ -197,7 +209,7 @@ p {
     padding-bottom: 2rem;
 }
 
-.accordion-container {
+/* .accordion-container {
     margin: 5%;
 }
 
@@ -237,7 +249,38 @@ p {
   .accordion-body-open{
     padding: 15px;
     height: auto;
+  } */
+
+  .accordion {
+    width: 800px;
+    margin: 90px auto;
+    margin-top: 10px;
+    color: black;
+    padding: 45px 45px;
+    font-family: 'Roboto Condensed', sans-serif;
   }
+
+  .label {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #000b82;
+    color: white;
+    padding: 1rem;
+  }
+
+  .label:hover {
+    background-color: #030730;
+    transition: .5s;
+  }
+
+  .content {
+    padding: 1rem;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
 
   ::selection {
     color: white;
