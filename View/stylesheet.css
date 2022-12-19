@@ -246,11 +246,22 @@ p {
     background-color:brown;
   }
 
+  #get-to-know {
+    padding: 2rem;
+    margin: 2rem;
+    margin-top: 0;
+    padding-top: 0;
+  }
   #ProfilePic {
-    padding: 3rem;
-    margin: 3rem;
     width: 30%;
     height: 30%;
+    margin-right: 1rem;
+  }
+
+  #pic-text {
+    display: flex;
+    /* margin: 1rem;
+    padding: 1rem; */
   }
 
   .container-divider {
