@@ -34,8 +34,8 @@ body {
     text-align: center;
     padding-left: 10rem;
     padding-right: 10rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 1rem ;
+    margin-right: 1rem ;
     font-family: 'Roboto Condensed', sans-serif;
     border-top: thick double black;
 }
@@ -209,50 +209,8 @@ p {
     padding-bottom: 2rem;
 }
 
-/* .accordion-container {
-    margin: 5%;
-}
-
-.accordion-head {
-    padding: 15px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: center;
-    vertical-align: middle;
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: #000b82;
-    color: white;
-}
-
-.accordion-head:hover {
-    background-color: #030730;
-    transition: .5s;
-}
-
-  
-  .accordion-body {
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    vertical-align: middle;
-    background-color: white;
-    height: 0px;
-    padding: 0px;
-    overflow: hidden;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  
-  .accordion-body-open{
-    padding: 15px;
-    height: auto;
-  } */
-
   .accordion {
-    width: 800px;
+    width: 70%;
     margin: 90px auto;
     margin-top: 10px;
     color: black;
@@ -261,6 +219,7 @@ p {
   }
 
   .label {
+
     text-align: center;
     font-weight: bold;
     font-size: larger;
@@ -285,4 +244,16 @@ p {
   ::selection {
     color: white;
     background-color:brown;
+  }
+
+  #ProfilePic {
+    padding: 3rem;
+    margin: 3rem;
+    width: 30%;
+    height: 30%;
+  }
+
+  .container-divider {
+    margin: 0;
+    padding: 0;
   }
