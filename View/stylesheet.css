@@ -151,8 +151,8 @@ p {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     padding-bottom: 3rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
     border-bottom: thick double black;
 }
 
@@ -166,8 +166,8 @@ p {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     border-bottom: thick double black;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
     padding-bottom: 3rem;
 }
 
@@ -185,8 +185,8 @@ p {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     border-bottom: thick double black;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
     padding-bottom: 3rem;
 }
 
@@ -198,8 +198,8 @@ p {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     border-bottom: thick double black;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
     padding-bottom: 3rem;
 }
 
@@ -210,8 +210,8 @@ p {
 .awards {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
     padding-bottom: 3rem;
 }
 
@@ -278,8 +278,8 @@ p {
 
   .paragraphs {
     font-family: 'Roboto Condensed', sans-serif;
-    padding: 2rem;
-    margin: 2rem;
+    /* padding: 2rem;
+    margin: 2rem; */
     margin-top: 0;
     padding-top: 0;
     font-size: 22pt;
