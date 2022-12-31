@@ -432,7 +432,7 @@ Process completed. Please refresh page to calculate another value.
 </section>
 <section id="how-did-we-create-our-models" class="cell markdown">
 <h3>How did we create our models?</h3>
-<p>Our models were created using SciKit Learn, Pandas, and NumPy, using Python 3.6.</p>
+<p>Our models were created using SciKit Learn, Pandas, and NumPy, using Python 3.10.</p>
 <h4 id="code-for-rank-by-videos-and-subscribers-model">Code for Rank by Videos and Subscribers Model:</h4>
 <p><code>new_x = channels_data[["Subscribers", "Videos"]]</code> <br> <code>new_y = channels_data["Rank"]</code><br> <code>new_x_train, new_x_test, new_y_train, new_y_test = train_test_split(new_x, new_y, test_size=0.2)</code><br> <code>new_model = rfr()</code><br> <code>new_model.fit(new_x_train, new_y_train)</code><br> <code>new_model.score(new_x_test, new_y_test)</code><br></p>
 <h4 id="code-for-rank-by-subscriber-only-model">Code for Rank by Subscriber-Only Model:</h4>
