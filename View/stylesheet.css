@@ -300,3 +300,8 @@ p {
     text-decoration: none;
     color: black;
   }
+
+  #Scripting-II {
+    max-width: 100%;
+    max-height: auto;
+  }
