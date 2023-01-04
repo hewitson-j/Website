@@ -259,7 +259,8 @@ p {
 
   #get-to-know {
     padding: 2rem;
-    margin: 2rem;
+    margin: auto;
+    max-width: 1500px;
     margin-top: 0;
     padding-top: 0;
     font-size: 18pt;
@@ -280,6 +281,8 @@ p {
     font-family: 'Roboto Condensed', sans-serif;
     /* padding: 2rem;
     margin: 2rem; */
+    margin: auto;
+    max-width: 1500px;
     margin-top: 0;
     padding-top: 0;
     font-size: 22pt;
